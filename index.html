@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="anim.js"></script>
+</head>
+<body>
+	
+	
+	<div id="boxID" class="box">
+		<p id="lover"> <progress id="love" class="progress" value="99" max="100"></progress>Health</p>
+	<p id="energyp" ><progress id="energy" class="progress" value="59" max="100"></progress>Energy</p>
+<button id="btnSleep" onclick="sleep()">Sleep</button> 
+	<button  id="btnEat" onclick="btnEat()">Give eat</button>
+	<button class="btn" id="prevbtn" onclick="back()">&#8592</button>
+	<button class="btn" id="nextbtn" onclick="next()">&#8594</button>
+		<div class="element">
+			<img onclick="talking()" id="cont" src="close.png" alt="idle"> 
+            <img  id="eat1" src="eat.png" alt="eat">
+		</div>
+		<div class="boxp">
+			<p id="golosrobot"></p>
+		</div>
+	</div>
+	
+	</body>
+</html>

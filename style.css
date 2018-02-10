@@ -1,0 +1,100 @@
+.box{
+	margin: 100px auto;
+	width: 500px;
+	height: 300px;
+	border: 1px solid red;
+	background-image: url(bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-size: 100%
+}
+#prevbtn{
+	
+	position: absolute;
+	left: 0px;
+}
+#nextbtn{
+position: absolute;
+	right:  0px;
+}
+.btn{
+	width: 35px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 15px;
+	background: #fefcea; /* Для старых браузров */
+   background-image: linear-gradient(#c0c0c0, #000000);
+   color: #fff;
+   outline: none;
+}
+#lover{
+	position: absolute;
+	top:-15px;
+	left:0px;
+}
+#btnEat{
+	position: absolute;
+	bottom:0px;
+	height: 20px; 
+	width: 70px;
+	z-index: 2;
+}
+#btnSleep{
+	position: absolute;
+	bottom:0px;
+	left: 140px;
+	height: 20px; 
+	width: 70px;
+	z-index: 2;
+}
+#cont{
+	position: absolute;
+	top: 200px;
+	z-index: 1;
+}
+#eat1{
+	position: absolute;
+	z-index: 2;
+}
+#energyp{
+	position: absolute;
+	top:5px;
+	left:0px;
+}
+.progress{
+	background-color: green;
+}
+.btn:hover{
+border: 1px solid red;
+}
+
+#cont{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	margin: -50px -200px 0px -80px;
+}
+#eat1{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	display: none;
+}
+#golosrobot{
+	background-color: #fff;
+	width: 50px;
+	display: block;
+	margin: -120px 0px 0px -10px;
+}
+#golosrobot{
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	top:250px;
+}
